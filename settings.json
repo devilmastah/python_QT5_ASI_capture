@@ -1,0 +1,35 @@
+{
+  "crop": {
+    "enabled": true,
+    "rect": [
+      626,
+      38,
+      3224,
+      2087
+    ]
+  },
+  "dark": {
+    "enabled": true,
+    "exposure_us": 50000,
+    "gain": 48,
+    "path": "D:\\Dropbox\\XRAY AND CT\\Xray and CT app in python new version\\calibration\\master_dark.tiff"
+  },
+  "distortion_manual": {
+    "enabled": true,
+    "k1": -0.28,
+    "k2": -0.097,
+    "k3": -0.081,
+    "zoom": 0.97
+  },
+  "exposure_us": 50000,
+  "flat": {
+    "enabled": true,
+    "exposure_us": 50000,
+    "gain": 48,
+    "path": "D:\\Dropbox\\XRAY AND CT\\Xray and CT app in python new version\\calibration\\master_flat.tiff"
+  },
+  "gain": 48,
+  "snapshot": {
+    "stack_n": 15
+  }
+}

@@ -1,0 +1,6 @@
+numpy
+pyqt5
+pillow
+zwoasi
+opencv-python
+pyzmq

@@ -48,7 +48,7 @@
  ---
  
  ## Project structure
- 
+ ```
  src/
  ├── main.py                    # Main Qt application
  ├── capture_worker.py          # Camera acquisition thread (ASICamera2)
@@ -66,6 +66,8 @@
  server_control_example.py      # Example external control client
  requirements.txt               # Python dependencies
  settings.json                  # Runtime-generated settings file
+ ```
+
  
  ---
  

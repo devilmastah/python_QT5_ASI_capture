@@ -68,7 +68,7 @@
  settings.json                  # Runtime-generated settings file
  ```
 
- 
+
  ---
  
  ## Setup
@@ -80,39 +80,43 @@
     (PATH on Windows, LD_LIBRARY_PATH on Linux).
  
  3. Create a virtual environment:
+ ```
     python -m venv venv
- 
+ ```
  4. Activate the virtual environment:
+ ```
     Windows:
     venv\Scripts\activate
  
     Linux / macOS:
     source venv/bin/activate
- 
+ ```
  5. Install Python dependencies:
+ ```
     pip install -r requirements.txt
- 
+ ```
  6. Run the application:
+ ```
     python src/main.py
- 
+ ```
  ---
  
  ## requirements.txt
- 
+ ```
  numpy
  opencv-python
  PyQt5
  pyzmq
  zwoasi
- 
+ ```
  ---
  
  ## Sanity check
  
  To verify that the ASI SDK is correctly installed:
- 
+ ```
  python -c "import zwoasi; print(zwoasi.get_num_cameras())"
- 
+ ```
  You should see a number greater than 0 if a camera is connected.
  
  ---

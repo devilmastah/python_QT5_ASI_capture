@@ -10,9 +10,9 @@
   },
   "dark": {
     "enabled": true,
-    "exposure_us": 50000,
-    "gain": 48,
-    "path": "D:\\Dropbox\\XRAY AND CT\\Xray and CT app in python new version\\calibration\\master_dark.tiff"
+    "exposure_us": 3144000,
+    "gain": 271,
+    "path": "D:\\Dropbox\\XRAY AND CT\\New Python CT app modular\\python_QT5_ASI_capture\\calibration\\master_dark.tiff"
   },
   "distortion_manual": {
     "enabled": true,
@@ -21,15 +21,15 @@
     "k3": -0.081,
     "zoom": 0.97
   },
-  "exposure_us": 50000,
+  "exposure_us": 3144000,
   "flat": {
     "enabled": true,
-    "exposure_us": 50000,
-    "gain": 48,
-    "path": "D:\\Dropbox\\XRAY AND CT\\Xray and CT app in python new version\\calibration\\master_flat.tiff"
+    "exposure_us": 3144000,
+    "gain": 271,
+    "path": "D:\\Dropbox\\XRAY AND CT\\New Python CT app modular\\python_QT5_ASI_capture\\calibration\\master_flat.tiff"
   },
-  "gain": 48,
+  "gain": 271,
   "snapshot": {
-    "stack_n": 15
+    "stack_n": 30
   }
 }
